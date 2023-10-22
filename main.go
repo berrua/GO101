@@ -9,5 +9,6 @@ import (
 func main() {
 	//fmt.Print()
 	//variables.Demo1()
-	conditionals.Demo1()
+	//conditionals.Demo1()
+	conditionals.Demo2()
 }
