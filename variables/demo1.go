@@ -16,14 +16,14 @@ func Demo1() {
 	fmt.Println(sayi2)
 	fmt.Println(100 + sayi2)
 
-	sayi3 := 5
+	sayi3 := 5 // hem tanımlama hem atama yapma
 	fmt.Println(sayi3)
 	fmt.Printf("veri tipi: %T\n", sayi3) // formatlı yazdırma
 
 	var durum bool
 	var metin1 string = "hello"
 	var metin2 string = "helloo"
-	durum = metin1 == metin2
+	durum = metin1 == metin2 // == eşit mi? , != farklı mı?
 	fmt.Println(durum)
 	fmt.Println(!durum)
 }
