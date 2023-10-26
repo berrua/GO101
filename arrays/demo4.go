@@ -13,7 +13,7 @@ func Demo4() {
 	sayilar[1][2] = 6
 
 	fmt.Println(sayilar)
-	fmt.Println(sayilar[0][0])
+	fmt.Println(sayilar[1][1])
 
 	for i := 0; i < 2; i++ {
 		for j := 0; j < 3; j++ {
