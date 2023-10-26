@@ -3,11 +3,11 @@ package loops
 import "fmt"
 
 func Workshop3() {
-	//sayı tahmin oyunu
+	//asal sayı mı
 	sayi := 80
 	tahmin := 0
 
-	fmt.Println("Bir sayı tahmin ediniz...")
+	fmt.Println("Bir sayı giriniz...")
 	fmt.Scanln(&tahmin)
 
 	for sayi != tahmin {
