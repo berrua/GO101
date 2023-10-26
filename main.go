@@ -4,7 +4,8 @@ import (
 	//"fmt"
 	//"goexamples/variables"
 	//"goexamples/conditionals"
-	"goexamples/loops"
+	//"goexamples/loops"
+	"goexamples/arrays"
 )
 
 func main() {
@@ -18,5 +19,9 @@ func main() {
 	//loops.Workshop1()
 	//loops.Workshop2()
 	//loops.Workshop3()
-	loops.Workshop4()
+	//loops.Workshop4()
+	//arrays.Demo1()
+	//arrays.Demo2()
+	//arrays.Demo3()
+	arrays.Demo4()
 }
