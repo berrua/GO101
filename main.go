@@ -26,10 +26,10 @@ func main() {
 	//functions.Hello("Admin")
 	//var sonuc = functions.Topla(3, 2)
 	//fmt.Println(sonuc * 10)
-	sonuc1, sonuc2, sonuc3, sonuc4 := functions.DortIslem(4, 6)
-	fmt.Println("Toplama: ", sonuc1)
-	fmt.Println("Çıkarma: ", sonuc2)
-	fmt.Println("Çarpma: ", sonuc3)
-	fmt.Println("Bölme: ", sonuc4)
-
+	//sonuc1, sonuc2, sonuc3, sonuc4 := functions.DortIslem(4, 6)
+	//fmt.Println("Toplama: ", sonuc1)
+	//fmt.Println("Çıkarma: ", sonuc2)
+	//fmt.Println("Çarpma: ", sonuc3)
+	//fmt.Println("Bölme: ", sonuc4)
+	fmt.Println(functions.ToplaVariadic(1, 4, 5, 7, 9))
 }
