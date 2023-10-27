@@ -1,12 +1,7 @@
 package main
 
 import (
-	//"fmt"
-	//"goexamples/variables"
-	//"goexamples/conditionals"
-	//"goexamples/loops"
-	//"goexamples/arrays"
-	"goexamples/slices"
+	"goexamples/functions"
 )
 
 func main() {
@@ -26,5 +21,10 @@ func main() {
 	//arrays.Demo3()
 	//arrays.Demo4()
 	//slices.Demo1()
-	slices.Demo2()
+	//slices.Demo2()
+	//functions.Hello("Admin")
+	//var sonuc = functions.Topla(3, 2)
+	//fmt.Println(sonuc * 10)
+	functions.Demo2()
+
 }
