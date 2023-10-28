@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"goexamples/channels"
+)
+
 func main() {
 	//fmt.Print()
 	//variables.Demo1()
@@ -66,4 +71,14 @@ func main() {
 	//time.Sleep(time.Second * 5)
 	//go islem()
 	//...
+
+	ciftSayiCn := make(chan int)
+	tekSayiCn := make(chan int)
+	go channels.CiftSayilar(ciftSayiCn)
+	go channels.TekSayilar(tekSayiCn)
+
+	ciftSayiToplam, tekSayiToplam := <-ciftSayiCn, <-tekSayiCn
+
+	carpim := ciftSayiToplam * tekSayiToplam
+	fmt.Println("Çarpım:", carpim)
 }
