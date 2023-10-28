@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"goexamples/pointers"
+	"goexamples/structs"
 )
 
 func main() {
@@ -55,7 +54,10 @@ func main() {
 	//pointers.Demo1(&sayi)
 	//fmt.Println("Main:", sayi)
 
-	sayilar := []int{1, 2, 3, 4}
-	pointers.Demo2(sayilar)
-	fmt.Println("Main:", sayilar[0])
+	//sayilar := []int{1, 2, 3, 4}
+	//pointers.Demo2(sayilar)
+	//fmt.Println("Main:", sayilar[0])
+
+	structs.Demo1()
+	structs.Demo2()
 }
