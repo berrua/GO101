@@ -58,6 +58,6 @@ func main() {
 	//pointers.Demo2(sayilar)
 	//fmt.Println("Main:", sayilar[0])
 
-	structs.Demo1()
+	//structs.Demo1()
 	structs.Demo2()
 }
