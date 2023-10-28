@@ -1,6 +1,9 @@
 package main
 
-import "goexamples/for_range"
+import (
+	"fmt"
+	"goexamples/pointers"
+)
 
 func main() {
 	//fmt.Print()
@@ -46,5 +49,13 @@ func main() {
 
 	//for_range.Demo1()
 	//for_range.Demo2()
-	for_range.Demo3()
+	//for_range.Demo3()
+
+	//sayi := 20
+	//pointers.Demo1(&sayi)
+	//fmt.Println("Main:", sayi)
+
+	sayilar := []int{1, 2, 3, 4}
+	pointers.Demo2(sayilar)
+	fmt.Println("Main:", sayilar[0])
 }
