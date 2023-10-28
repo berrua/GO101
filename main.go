@@ -1,6 +1,6 @@
 package main
 
-import "goexamples/maps"
+import "goexamples/for_range"
 
 func main() {
 	//fmt.Print()
@@ -42,5 +42,9 @@ func main() {
 	//sayilar := []int{1, 2, 3, 4}
 	//fmt.Println(functions.ToplaVariadic(sayilar...))
 
-	maps.Demo1()
+	//maps.Demo1()
+
+	//for_range.Demo1()
+	//for_range.Demo2()
+	for_range.Demo3()
 }
