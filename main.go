@@ -1,9 +1,5 @@
 package main
 
-import (
-	"goexamples/structs"
-)
-
 func main() {
 	//fmt.Print()
 	//variables.Demo1()
@@ -59,5 +55,15 @@ func main() {
 	//fmt.Println("Main:", sayilar[0])
 
 	//structs.Demo1()
-	structs.Demo2()
+	//structs.Demo2()
+
+	//go goroutines.CiftSayilar()
+	//go goroutines.TekSayilar()
+	//time.Sleep(time.Second * 5)
+	//fmt.Println("Main bitti.")
+
+	//go goroutines.Demo2()
+	//time.Sleep(time.Second * 5)
+	//go islem()
+	//...
 }
