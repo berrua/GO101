@@ -1,7 +1,7 @@
 package main
 
 import (
-	"goexamples/interfaces"
+	"goexamples/defer_statements"
 )
 
 func main() {
@@ -82,5 +82,9 @@ func main() {
 	//fmt.Println("Çarpım:", carpim)
 
 	//interfaces.Demo1()
-	interfaces.Demo2()
+	//interfaces.Demo2()
+
+	//defer_statements.B()
+	//defer_statements.Test()
+	defer_statements.Demo3()
 }
