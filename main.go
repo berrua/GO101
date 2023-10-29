@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"goexamples/channels"
+	"goexamples/interfaces"
 )
 
 func main() {
@@ -72,13 +71,15 @@ func main() {
 	//go islem()
 	//...
 
-	ciftSayiCn := make(chan int)
-	tekSayiCn := make(chan int)
-	go channels.CiftSayilar(ciftSayiCn)
-	go channels.TekSayilar(tekSayiCn)
+	//ciftSayiCn := make(chan int)
+	//tekSayiCn := make(chan int)
+	//go channels.CiftSayilar(ciftSayiCn)
+	//go channels.TekSayilar(tekSayiCn)
 
-	ciftSayiToplam, tekSayiToplam := <-ciftSayiCn, <-tekSayiCn
+	//ciftSayiToplam, tekSayiToplam := <-ciftSayiCn, <-tekSayiCn
 
-	carpim := ciftSayiToplam * tekSayiToplam
-	fmt.Println("Çarpım:", carpim)
+	//carpim := ciftSayiToplam * tekSayiToplam
+	//fmt.Println("Çarpım:", carpim)
+
+	interfaces.Demo1()
 }
