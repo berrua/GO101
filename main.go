@@ -1,7 +1,7 @@
 package main
 
 import (
-	"goexamples/string_functions"
+	"goexamples/restful"
 )
 
 func main() {
@@ -95,5 +95,7 @@ func main() {
 	//interfaces.Demo3()
 
 	//string_functions.Demo1()
-	string_functions.Demo2()
+	//string_functions.Demo2()
+
+	restful.Demo1()
 }
