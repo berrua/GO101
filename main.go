@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"goexamples/error_handling"
 )
 
@@ -89,7 +90,8 @@ func main() {
 	//defer_statements.Demo3()
 
 	//error_handling.Demo1()
-	error_handling.Demo2()
+	//error_handling.Demo2()
+	fmt.Println(error_handling.TahminEt2(101))
 
 	//interfaces.Demo3()
 }
