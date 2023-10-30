@@ -88,5 +88,8 @@ func main() {
 	//defer_statements.Test()
 	//defer_statements.Demo3()
 
-	error_handling.Demo1()
+	//error_handling.Demo1()
+	error_handling.Demo2()
+
+	//interfaces.Demo3()
 }
