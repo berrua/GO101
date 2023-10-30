@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"goexamples/error_handling"
+	"goexamples/string_functions"
 )
 
 func main() {
@@ -91,7 +90,10 @@ func main() {
 
 	//error_handling.Demo1()
 	//error_handling.Demo2()
-	fmt.Println(error_handling.TahminEt2(101))
+	//fmt.Println(error_handling.TahminEt2(101))
 
 	//interfaces.Demo3()
+
+	//string_functions.Demo1()
+	string_functions.Demo2()
 }
