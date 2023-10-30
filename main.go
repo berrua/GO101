@@ -1,7 +1,7 @@
 package main
 
 import (
-	"goexamples/defer_statements"
+	"goexamples/error_handling"
 )
 
 func main() {
@@ -86,5 +86,7 @@ func main() {
 
 	//defer_statements.B()
 	//defer_statements.Test()
-	defer_statements.Demo3()
+	//defer_statements.Demo3()
+
+	error_handling.Demo1()
 }
